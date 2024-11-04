@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batidos Saludables - Productos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .card-img-top {
+      height: 200px; 
+      object-fit: cover; 
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    }
+    .card-img-top:hover {
+      transform: scale(1.05); 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /
+    }
+    .btn-success {
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .btn-success:hover {
+      background-color: #f53952; 
+      transform: scale(1.1); 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/logo-batimix.png" alt="Logo Batidos" class="logo">
+          Batimix
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservas.html">Reservas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="mt-5 container">
+    <h2 class="text-center">Nuestros batidos</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../assets/batido-de-fresas.jpg" class="card-img-top" alt="Batido de Fresa">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Fresa</h5>
+            <p class="card-text">Disfruta de un batido fresco, natural y lleno de vitaminas.</p>
+            <p><strong>Precio:</strong> $5</p>
+            <a href="../index.html" class="btn btn-success">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../assets/Batido-platano.jpg" class="card-img-top" alt="Batido de Banana">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Banana</h5>
+            <p class="card-text">Una fuente natural de energía, ideal para cualquier momento del día.</p>
+            <p><strong>Precio:</strong> $5</p>
+            <a href="../index.html" class="btn btn-success">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../assets/batido-de-mango.jpg" class="card-img-top" alt="Batido de Mango">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Mango</h5>
+            <p class="card-text">Exquisito sabor tropical, refrescante y lleno de nutrientes.</p>
+            <p><strong>Precio:</strong> $5</p>
+            <a href="../index.html" class="btn btn-success">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../assets/batido-piña.jpg" class="card-img-top" alt="Batido de Piña">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Piña</h5>
+            <p class="card-text">El toque tropical perfecto, ideal para disfrutar en cualquier momento.</p>
+            <p><strong>Precio:</strong> $5</p>
+            <a href="../index.html" class="btn btn-success">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../assets/frutas-mixtas.jpg" class="card-img-top" alt="Batido de Frutas Mixtas">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Frutas Mixtas</h5>
+            <p class="card-text">Una combinación refrescante de las mejores frutas.</p>
+            <p><strong>Precio:</strong> $5</p>
+            <a href="../index.html" class="btn btn-success">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-white text-center p-4 mt-5">
+    <p>&copy; 2024 Batidos Saludables. Todos los derechos reservados.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
